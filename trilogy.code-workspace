@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "/Users/markkim/trilogy/curriculum/fullstack-online-internal"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501
+	}
+}

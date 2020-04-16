@@ -1,0 +1,35 @@
+DROP TABLE IF EXISTS creators;
+DROP TABLE IF EXISTS channels;
+DROP TABLE IF EXISTS sponsors;
+
+CREATE TABLE creators (
+  id INTEGER PRIMARY KEY,
+  first_name VARCHAR(30) NOT NULL,
+  last_name VARCHAR(30) NOT NULL,
+  age INTEGER NOT NULL,
+  nationality VARCHAR(30) NOT NULL,
+  start_year NOT NULL
+);
+
+CREATE TABLE channels (
+  id INTEGER PRIMARY KEY,
+  title VARCHAR(20) NOT NULL,
+  description TEXT NOT NULL,
+  email VARCHAR(50) NOT NULL,
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+
+
+CREATE TABLE sponsors (
+  id INTEGER PRIMARY KEY,
+  voter_id INTEGER UNSIGNED NOT NULL,
+  candidate_id INTEGER UNSIGNED NOT NULL,
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+  CONSTRAINT uc_voter UNIQUE (voter_id),
+  CONSTRAINT fk_voter FOREIGN KEY (voter_id) REFERENCES voters(id) ON DELETE CASCADE,
+  CONSTRAINT fk_candidate FOREIGN KEY (candidate_id) REFERENCES candidates(id) ON DELETE CASCADE
+);
+
+INSERT INTO creators ()
+VALUES
