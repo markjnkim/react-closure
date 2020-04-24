@@ -76,7 +76,7 @@ Game Plan for Modules 5–6:
 Game Plan formats we can take:
 We provide a sortable list where students can drag steps into the order they think is correct. In this interaction, two of the steps are out of order in how the list is presented initially to students.
 Feedback is general and not answer specific. 
-We provide two contrasting gameplans and students have to pick the best gameplan. 
+We provide two contrasting game plans and students have to pick the best game plan. 
 There is a clear right and wrong.
 Feedback is general, explaining why one answer is correct and the other is not.
 We provide a game plan, and the student has to identify the step that is an error 
@@ -84,11 +84,11 @@ Feedback is general and not answer-specific.
 
 Game Plan for Modules 9–14
 We provide a sortable list where students can drag steps into the order they think is correct. In this interaction, all but one of the steps are out of order in how the list is presented initially to students.
-We provide two contrasting gameplans and students have to pick the best gameplan. 
+We provide two contrasting game plans and students have to pick the best game plan. 
 The separation between right and wrong is less obvious than in modules 5-6. 
 
 Game Plan for Modules 17–19
-We provide a gameplan that has 1 or 2 “blank/s”. Students have to fill in these blanks via text input.
+We provide a game plan that has 1 or 2 “blank/s”. Students have to fill in these blanks via text input.
 We provide our approach, noting that there may be multiple ways of going about this challenge. 
 Students are prompted to reflect about 
 
@@ -97,11 +97,11 @@ Game Plan for Modules 20-22
 Students input the steps they would take as text. 
 We offer how we will be tackling the scope ahead. We encourage students to self-assess what they wrote against our answer. “How close is your strategy to the approach we’ll take? Reach out to your TA if you see a large discrepancy between the two.” 
 
-Important. Create a Jira issue clearly specifying the requirements for the drag-and-drop assessment that is required for the Game Plan. Make sure that the Jira issue contains the assessment title, as described next. For example, “Assessment: 9.2 Gameplan”.
+Important. Create a Jira issue clearly specifying the requirements for the drag-and-drop assessment that is required for the Game Plan. Make sure that the Jira issue contains the assessment title, as described next. For example, “Assessment: 9.2 Game Plan”.
 
-The syntax for the Gameplan placeholder is:
+The syntax for the Game Plan placeholder is:
 
-> **Asset Needed:** Assessment X.Y Gameplan [FSFO-XXX](url of jira issue)
+> **Asset Needed:** Assessment X.Y Game Plan [FSFO-XXX](url of jira issue)
 
 where X represents the module number and Y represents the lesson number. For example:
 
@@ -310,9 +310,9 @@ Ex: Pause: [consider _____ and how it might affect the performance of the featur
 
 Congratulate the learner (Great work!, Congratulations! Pat yourself on the back, etc.). Recap what they accomplished during the lesson from a bigger perspective in a couple of sentences.
 In this lesson, you added the following skills to your tool belt, knowledge base, skillset (or something like that), then list the technical skills/tools/code they learned. (Reiterate the objectives outlined in the Introduction, but try not to do so verbatim.)
-Skill learned in 1-2 sentences
-Skill learned in 1-2 sentences
-Skill learned in 1-2 sentences
+* Skill learned in 1-2 sentences
+* Skill learned in 1-2 sentences
+* Skill learned in 1-2 sentences
 Etc.
 If this is the last lesson in a module, recap the entire module
 If this is not the last lesson in a module, introduce the next lesson and how it will build on the skills in this lesson.
